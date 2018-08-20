@@ -1,9 +1,5 @@
 
 # coding: utf-8
-
-# In[ ]:
-
-
 ###AQI###
 import requests
 from bs4 import BeautifulSoup
@@ -46,7 +42,7 @@ def getAQI():
     myself = bot.self
     
 #     #向唐朝挂面发送result
-#     friend = bot.friends().search('唐朝挂面')[0]
+#     friend = bot.friends().search('唐朝挂面')[0] #指定朋友的 昵称，备注。
 #     friend.send(result)
     
    
